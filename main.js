@@ -39,3 +39,9 @@ function tocaSomLeão() {
 }
 
 document.querySelector('.tecla_leão').onclick = tocaSomLeão;
+
+function tocaSomGorila() {
+    document.querySelector('#som_tecla_gorila').play();
+}
+
+document.querySelector('.tecla_gorila').onclick = tocaSomGorila;
