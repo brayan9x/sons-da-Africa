@@ -10,3 +10,8 @@ function tocaSomChocalho() {
 
 document.querySelector('.tecla_chocalho').onclick = tocaSomChocalho;
 
+function tocaSomCaxixi(){
+    document.querySelector('#som_tecla_caxixi').play();
+}
+
+document.querySelector('.tecla_caxixi').onclick = tocaSomCaxixi;
