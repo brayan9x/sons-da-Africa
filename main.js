@@ -15,3 +15,9 @@ function tocaSomCaxixi(){
 }
 
 document.querySelector('.tecla_caxixi').onclick = tocaSomCaxixi;
+
+function tocaSomKalimba(){
+    document.querySelector('#som_tecla_kalimba').play();
+}
+
+document.querySelector('.tecla_kalimba').onclick = tocaSomkalimba;
