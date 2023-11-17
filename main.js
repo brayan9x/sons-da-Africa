@@ -45,3 +45,9 @@ function tocaSomGorila() {
 }
 
 document.querySelector('.tecla_gorila').onclick = tocaSomGorila;
+
+function tocaSomHiena() {
+    document.querySelector('#som_tecla_hiena').play();
+}
+
+document.querySelector('.tecla_hiena').onclick = tocaSomHiena;
