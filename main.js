@@ -33,3 +33,9 @@ function tocaSomElefante() {
 }
 
 document.querySelector('.tecla_elefante').onclick = tocaSomElefante;
+
+function tocaSomLeão() {
+    document.querySelector('#som_tecla_leão').play();
+}
+
+document.querySelector('.tecla_leão').onclick = tocaSomLeão;
