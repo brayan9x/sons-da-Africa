@@ -20,7 +20,7 @@ function tocaSomKalimba(){
     document.querySelector('#som_tecla_kalimba').play();
 }
 
-document.querySelector('.tecla_kalimba').onclick = tocaSomkalimba;
+document.querySelector('.tecla_kalimba').onclick = tocaSomKalimba;
 
 function tocaSomTambor() {
     document.querySelector('#som_tecla_tambor').play();
