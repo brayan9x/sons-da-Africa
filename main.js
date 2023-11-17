@@ -21,3 +21,9 @@ function tocaSomKalimba(){
 }
 
 document.querySelector('.tecla_kalimba').onclick = tocaSomkalimba;
+
+function tocaSomTambor(){
+    document.querySelector('#som_tecla_tambor').play();
+}
+
+document.querySelector('.tecla_tambor').onclick = tocaSomTambor;
